@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegas Valley Pool Maintenance | Reliable Pool Cleaning in Las Vegas & Henderson</title>
+  <meta name="description" content="Crystal-clear pool water all summer long. Weekly maintenance, chemical balancing, filter cleanings, and emergency equipment repair across the Las Vegas Valley.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            pool: {
+              cyan: '#06B6D4',
+              teal: '#0E7490',
+              marine: '#041B2D',
+              card: '#08253D',
+              border: '#133E63'
+            }
+          },
+          fontFamily: {
+            display: ['Outfit', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-pool-marine text-slate-100 font-sans antialiased selection:bg-pool-cyan selection:text-black">
+
+  <!-- TOP BAR -->
+  <div class="bg-cyan-500 text-black text-xs font-bold py-2 px-4 text-center">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2">
+      <i data-lucide="waves" class="w-3.5 h-3.5"></i>
+      <span>DESERT HEAT PROTECTION: SAME-DAY WATER TESTING & EMERGENCY GREEN-TO-CLEAN RECOVERY</span>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-40 bg-pool-marine/95 backdrop-blur-md border-b border-pool-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-cyan-400 to-teal-500 flex items-center justify-center text-black shadow-lg shadow-cyan-500/20">
+          <i data-lucide="droplets" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="font-display text-xl sm:text-2xl font-extrabold text-white leading-none block">VEGAS VALLEY</span>
+          <span class="text-[10px] tracking-[0.25em] text-cyan-400 uppercase font-bold">Pool Maintenance</span>
+        </div>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+        <a href="#services" class="hover:text-cyan-400 transition-colors">Services</a>
+        <a href="#protocol" class="hover:text-cyan-400 transition-colors">Weekly Checklist</a>
+        <a href="#reviews" class="hover:text-cyan-400 transition-colors">Reviews</a>
+        <a href="tel:7028241184" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-cyan-400/30 text-cyan-400 hover:bg-cyan-500/10">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          (702) 824-1184
+        </a>
+        <button onclick="openQuote()" class="px-5 py-2.5 rounded-lg bg-cyan-400 text-black font-extrabold hover:bg-cyan-300 shadow-lg shadow-cyan-500/20">
+          Free Water Inspection
+        </button>
+      </div>
+      <a href="tel:7028241184" class="md:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-400 text-black text-xs font-bold">
+        <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+        <span>Call</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative pt-16 pb-24 border-b border-pool-border bg-gradient-to-b from-pool-card/30 to-pool-marine">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-cyan-400/30 bg-cyan-500/10 text-cyan-400 text-xs font-bold">
+            <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+            <span>CONSISTENT, LICENSED & INSURED POOL ROUTE PROS</span>
+          </div>
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+            Clear, Safe Water.<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-200">Zero Desert Algae Hassle.</span>
+          </h1>
+          <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0">
+            Southern Nevada heat evaporates pool chemicals in hours. We provide guaranteed chemical stabilization, robotic vacuuming, and mechanical maintenance so your backyard oasis is always ready for a swim.
+          </p>
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <button onclick="openQuote()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-cyan-400 text-black font-extrabold text-base hover:bg-cyan-300 shadow-xl shadow-cyan-500/30">
+              Get Your Monthly Quote
+            </button>
+            <a href="tel:7028241184" class="w-full sm:w-auto px-8 py-4 rounded-xl border border-pool-border bg-pool-card hover:border-cyan-400 text-white font-bold text-base flex items-center justify-center gap-2">
+              <i data-lucide="phone" class="w-5 h-5 text-cyan-400"></i>
+              <span>(702) 824-1184</span>
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-5 bg-pool-card p-6 sm:p-8 rounded-2xl border border-pool-border shadow-2xl">
+          <h3 class="font-display text-2xl font-bold text-white mb-2">Request Service Route Slot</h3>
+          <p class="text-xs text-slate-300 mb-6">Enter your neighborhood and pool type for route confirmation within 1 hour.</p>
+          <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="hidden" name="to" value="vegasvalleypools@gmail.com">
+            <input type="text" name="name" required placeholder="Full Name" class="w-full px-4 py-2.5 rounded-lg bg-pool-marine border border-pool-border text-white text-sm focus:border-cyan-400 focus:outline-none">
+            <input type="tel" name="phone" required placeholder="Phone Number" class="w-full px-4 py-2.5 rounded-lg bg-pool-marine border border-pool-border text-white text-sm focus:border-cyan-400 focus:outline-none">
+            <select name="service_type" class="w-full px-4 py-2.5 rounded-lg bg-pool-marine border border-pool-border text-slate-300 text-sm focus:border-cyan-400 focus:outline-none">
+              <option>Weekly Full Service</option>
+              <option>Chemical Balancing Only</option>
+              <option>Green Pool Recovery</option>
+              <option>Pump / Filter Repair</option>
+            </select>
+            <button type="submit" class="w-full py-3.5 rounded-xl bg-cyan-400 text-black font-extrabold text-sm hover:bg-cyan-300 transition-colors">
+              Check Route Availability
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROTOCOL -->
+  <section id="protocol" class="py-20 border-b border-pool-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-[0.2em] text-cyan-400">Our 7-Step Protocol</span>
+        <h2 class="font-display text-3xl font-extrabold text-white mt-1">What Happens Every Visit</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-pool-card p-6 rounded-xl border border-pool-border">
+          <i data-lucide="test-tube" class="w-8 h-8 text-cyan-400 mb-4"></i>
+          <h4 class="font-bold text-white mb-2">1. Chemical Diagnostic</h4>
+          <p class="text-xs text-slate-300">Digital analysis of Free Chlorine, pH, Alkalinity, Cyanuric Acid, and Calcium Hardness.</p>
+        </div>
+        <div class="bg-pool-card p-6 rounded-xl border border-pool-border">
+          <i data-lucide="brush" class="w-8 h-8 text-cyan-400 mb-4"></i>
+          <h4 class="font-bold text-white mb-2">2. Tile & Step Brushing</h4>
+          <p class="text-xs text-slate-300">Scrubbing waterline calcium lines and steps to stop yellow and black algae spores.</p>
+        </div>
+        <div class="bg-pool-card p-6 rounded-xl border border-pool-border">
+          <i data-lucide="trash-2" class="w-8 h-8 text-cyan-400 mb-4"></i>
+          <h4 class="font-bold text-white mb-2">3. Basket & Skimmer Emptying</h4>
+          <p class="text-xs text-slate-300">Clearing pump and skimmer pots to maintain smooth hydraulic flow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-[0.2em] text-cyan-400">Maintenance Plans</span>
+        <h2 class="font-display text-3xl font-extrabold text-white mt-1">Transparent Monthly Service</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-pool-card p-6 rounded-2xl border border-pool-border">
+          <h3 class="font-display text-xl font-bold text-white">Chemical Only Plan</h3>
+          <p class="text-xs text-cyan-400 font-medium mb-4">Safe Chemistry</p>
+          <p class="text-xs text-slate-300 mb-6">We balance your chemicals, shock the pool weekly, and supply all sanitizers.</p>
+          <button onclick="openQuote()" class="w-full py-2.5 rounded-lg border border-cyan-400/40 text-cyan-400 text-xs font-bold">Select Chem Plan</button>
+        </div>
+        <div class="bg-pool-card p-6 rounded-2xl border-2 border-cyan-400 relative shadow-xl shadow-cyan-500/10">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-cyan-400 text-black text-[10px] font-extrabold uppercase px-3 py-1 rounded-full">Top Choice</div>
+          <h3 class="font-display text-xl font-bold text-white">Full Weekly Care</h3>
+          <p class="text-xs text-cyan-400 font-medium mb-4">Hands-Off Relaxation</p>
+          <p class="text-xs text-slate-300 mb-6">Full surface netting, wall scrubbing, vacuuming, basket clearance, and equipment monitoring.</p>
+          <button onclick="openQuote()" class="w-full py-2.5 rounded-lg bg-cyan-400 text-black text-xs font-bold">Select Full Plan</button>
+        </div>
+        <div class="bg-pool-card p-6 rounded-2xl border border-pool-border">
+          <h3 class="font-display text-xl font-bold text-white">Equipment & Filter Repair</h3>
+          <p class="text-xs text-cyan-400 font-medium mb-4">Repairs & Diagnostics</p>
+          <p class="text-xs text-slate-300 mb-6">Variable speed pump installs, DE filter tear-downs, salt cell replacements, and valve fixes.</p>
+          <button onclick="openQuote()" class="w-full py-2.5 rounded-lg border border-cyan-400/40 text-cyan-400 text-xs font-bold">Request Inspection</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="py-20 bg-pool-card/30 border-t border-pool-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="font-display text-3xl font-extrabold text-white mb-12">Verified Vegas Homeowners</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
+        <div class="p-6 bg-pool-card rounded-xl border border-pool-border">
+          <p class="text-xs text-slate-300 italic mb-4">"Our pool turned completely murky green right before a 4th of July party. Vegas Valley had the water crystal clear in less than 48 hours. Reliable weekly tech since."</p>
+          <p class="text-xs font-bold text-cyan-400">— Todd & Linda H., Summerlin</p>
+        </div>
+        <div class="p-6 bg-pool-card rounded-xl border border-pool-border">
+          <p class="text-xs text-slate-300 italic mb-4">"They send an email report with chemical readings every Friday when they finish. No more guesswork or rushing to pool supply stores."</p>
+          <p class="text-xs font-bold text-cyan-400">— Gregory B., Henderson</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-black border-t border-pool-border text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-slate-400"><strong>Vegas Valley Pool Maintenance</strong> • Clark County, NV</p>
+      <div class="flex items-center gap-4">
+        <a href="mailto:vegasvalleypools@gmail.com" class="hover:text-cyan-400">vegasvalleypools@gmail.com</a>
+        <a href="tel:7028241184" class="text-cyan-400 font-bold">(702) 824-1184</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="quoteModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-pool-card border border-pool-border rounded-2xl w-full max-w-md p-6 relative">
+      <button onclick="closeQuote()" class="absolute top-4 right-4 text-slate-400 hover:text-white"><i data-lucide="x" class="w-5 h-5"></i></button>
+      <h3 class="font-display text-xl font-bold text-white mb-2">Request Pool Inspection</h3>
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-3">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <input type="hidden" name="to" value="vegasvalleypools@gmail.com">
+        <input type="text" name="name" required placeholder="Name" class="w-full px-3 py-2 rounded bg-pool-marine border border-pool-border text-white text-xs">
+        <input type="tel" name="phone" required placeholder="Phone" class="w-full px-3 py-2 rounded bg-pool-marine border border-pool-border text-white text-xs">
+        <input type="text" name="zip" placeholder="Zip Code / Community (e.g. 89138)" class="w-full px-3 py-2 rounded bg-pool-marine border border-pool-border text-white text-xs">
+        <button type="submit" class="w-full py-2.5 rounded bg-cyan-400 text-black font-bold text-xs hover:bg-cyan-300">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    lucide.createIcons();
+    function openQuote() { document.getElementById('quoteModal').classList.remove('hidden'); document.getElementById('quoteModal').classList.add('flex'); }
+    function closeQuote() { document.getElementById('quoteModal').classList.add('hidden'); document.getElementById('quoteModal').classList.remove('flex'); }
+  </script>
+</body>
+</html>
